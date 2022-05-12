@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+#Container {
+    display: flex;
+    background-color: #EEEEEE;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px 166px; 
+}
+
+button {
+    border: none;
+}
+
+.btt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.btt:hover,
+.bttHeader:hover,
+.div:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btt:active,
+.bttHeader:active,
+.div:active {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+}
+
+#searchInput {
+    font-family: 'Poppins';
+    font-style: light;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    border: none;
+    border-bottom: 2px solid #000000;
+    padding-right: 50px;
+    background-color: #EEEEEE;
+    color: #8C8C8C;
+}
+
+#secondContainer {
+    padding: 26px;
+    padding-bottom: 40px;
+}
+
+#ContainerImage {
+    display: grid;
+    grid-template-areas: 
+    "img1 img3 img4"
+    "img2 img3 img5";
+    row-gap: 28px;
+    column-gap: 30px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+#item1 {grid-area: img1;}
+#item2 {grid-area: img2;}   
+#item3 {grid-area: img3;}
+#item4 {grid-area: img4;}
+#item5 {grid-area: img5;}
+
+#title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64.2px;
+    text-align: center;
+    color: #2E3840;
+}
+
+#description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22.47px;
+    text-align: center;
+    color: #2E3840;
+}
+
+.carousel {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.div {
+    min-width: 212.55px;
+    min-height: 311.24px;
+    margin: 18px;
+}
+
+.carouselImage {
+    min-width: 100%;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+s {
+    color: #757575;
+}
+
+.p1 {
+    color: #2E3840;
+}
+
+.p2 {
+    color: #B93A3F;
+}
+
+.p3{
+    color: #757575;
+    margin-top: 1px;
+    font-size: 12px;
+}
